@@ -1,0 +1,126 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 25px;
+}
+
+p {
+    text-indent: 38px;
+    margin: 40px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    /* On retire les puces de la liste */
+    list-style: none;
+}
+
+nav ul li {
+    /* On place les elements de la liste les uns à coté des autres */
+    display: inline-block;
+}
+
+article {
+    background-color: rgb(216, 245, 255);
+    padding: 2%;
+}
+
+table tr td{
+    /* Pour espacer un peu les élements dans les tableaux */
+    padding: 15px;
+}
+
+figcaption {
+    background-color: lightblue;
+}
+
+.carre {
+    width: 600px;
+    height: 600px;
+}
+
+.paysage {
+    width: 900px;
+    height: 600px;
+}
+
+.portrait {
+    width: 600px;
+    height: 900px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
